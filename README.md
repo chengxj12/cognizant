@@ -1,4 +1,4 @@
-This webapp will be deploy to AWS cloud by using KOPS and KUBECTL
+This webapp will be deploy to AWS cloud by using KOPS and KUBECTL  
 
 **Source code for webapp**  
 •	webapp application is written in Node.js  
@@ -13,4 +13,4 @@ This webapp will be deploy to AWS cloud by using KOPS and KUBECTL
 •	web.yml and web-service.yml are created for frontend  
 • webapp image will be pull form docker hub  
 •	redis.yml and redis-service.yml are created for backend  
-•	scripts are stored in kubernetes folder  
+•	make sure redis port set in redis-service is the same in app.js  
