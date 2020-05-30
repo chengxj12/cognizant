@@ -1,7 +1,9 @@
-**Link to source code for webapp**  
+This webapp will be deploy to AWS cloud by using KOPS and KUBECTL
+
+**Source code for webapp**  
 •	webapp application is written in Node.js  
 •	app.js and package.json are stored in webapp folder  
-• configure redis host and port in app.js  
+• redis host and port need to be configured in app.js  
   
 **Docker file for webapp and redis**  
 •	create webapp docker image by Dockerfile stored in docker folder and push it to docker hub  
